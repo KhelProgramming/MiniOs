@@ -1,0 +1,16 @@
+.workspace-container {
+    width: 100vw;
+    height: calc(100vh - 48px);
+    
+
+    background-image: url('../assets/eyes.jpg');
+
+    background-size: cover; /* scales the image to fill the space */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from tiling */
+
+    position: relative;
+    overflow: hidden;
+
+    filter: blur(3px);
+}
